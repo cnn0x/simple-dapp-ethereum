@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  padding-bottom: 100px;
+}
+
+.actual-message {
+  font-weight: 700;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 480px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  margin-top: 16px;
+  padding: 0 20px;
+}
+
+.buttons {
+  margin: 16px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 420px;
+  border-radius: 8px;
+}
+
+#wave-message {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  flex-basis: 100%;
+  font-size: 18px;
+  border: 2px solid rgb(209, 209, 209);
+  margin-bottom: 10px;
+  height: 120px;
+}
+.waveButton {
+  width: 100%;
+  border: 1px solid rgb(211, 60, 0);
+  background-color: coral;
+  border-radius: 8px;
+  font-weight: 700;
+  color: white;
+  box-shadow: rgb(211, 60, 0) 0px -2px 0px 0px inset;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 18px;
+  padding: 6px;
+  margin-bottom: 12px;
+}
+
+.waveButton:hover {
+  background-color: rgb(233, 102, 55);
+}
+
+.connectButton {
+  margin: 0 auto;
+  background-color: rgb(73, 73, 73);
+  padding: 8px;
+  border: 0;
+  border-radius: 16px;
+  font-weight: 700;
+  color: white;
+  box-shadow: rgb(0, 0, 0) 0px -2px 0px 0px inset;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 18px;
+}
+.connectButtonDeactive {
+  font-weight: 700;
+  color: rgb(165, 165, 165);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-waves {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-top: 1px solid rgba(128, 128, 128, 0.349);
+  padding-top: 32px;
+}
+
+.wave-container {
+  padding: 12px;
+  background-color: oldlace;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(128, 128, 128, 0.377);
+}
